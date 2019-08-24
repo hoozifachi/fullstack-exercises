@@ -1,0 +1,13 @@
+note over browser:
+the form submit handler adds the 
+new note to the list of notes,
+redraws the notes, and sends 
+the new note to the server
+end note
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over server:
+the server adds the new note 
+to its list of notes
+end note
